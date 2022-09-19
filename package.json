@@ -1,0 +1,17 @@
+{
+  "name": "infotecs_test_task",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "playwright test --reporter=line,allure-playwright",
+    "allure_generate": "allure generate allure-results -o allure-report --clean",
+    "allure_serve": "allure serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.25.2",
+    "allure-playwright": "^2.0.0-beta.19"
+  }
+}
